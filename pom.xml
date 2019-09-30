@@ -7,7 +7,9 @@
 	<packaging>war</packaging>
 	<name>Hello World Web Application Repository</name>
 	<description>Simplest possible Java Webapp</description>
-
+	<properties>
+	  <sonar.host.url>http://13.233.98.12:9000/</sonar.host.url>
+	</properties>
 	<build>
 		<plugins>
 			<plugin>
